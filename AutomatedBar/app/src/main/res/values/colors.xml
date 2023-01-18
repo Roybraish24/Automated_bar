@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">@color/azul</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+
+    <color name="statusBarColor">@color/colorPrimary</color>
+    <color name="colorAccent">@color/azul</color>
+
+    <color name="oxfordBlue">#050829</color>
+    <color name="prussianBlue">#1A375F</color>
+    <color name="lightDarkSlateBlue">#435B7C</color>
+    <color name="cadetGrey">#96A4B6</color>
+
+    <!-- Old Plan Fragment Button -->
+    <color name="cornSilk">#FFF8E1</color>
+    <color name="jasmine">#FFE275</color>
+
+    <!-- Login Button -->
+    <color name="transparent_white">#33FFFFFF</color>
+
+    <!-- Video Capture Colors -->
+    <color name="ghostWhite">#F9FBFE</color>
+    <color name="lightBlueGreyTwo">#CBD4EB</color>
+
+    <!-- Chart Colors -->
+    <color name="cerulean">#007ACE</color>
+    <color name="opaqueCerulean">#CC007ACE</color>
+    <color name="blueNcs">#1784B6</color>
+    <color name="malachite">#4CD964</color>
+    <color name="orange">#FF9800</color>
+    <color name="skyBlue">#5AC8FA</color>
+    <color name="iris">#5856D6</color>
+    <color name="azul">#1f70ed</color>
+    <color name="azul10Opacity">#1A1f70ed</color>
+
+    <!-- Style Guide 3.0 -->
+    <color name="eerieBlack">#191C1F</color>
+    <color name="davysGrey">#494949</color>
+    <color name="transparentGrey">#CC494949</color>
+    <color name="spanishGray">#919191</color>
+    <color name="silver">#C8C8C8</color>
+    <color name="platinum">#E1E1E1</color>
+    <color name="cultured">#F5F5F5</color>
+    <color name="blueRyb">#3257E1</color>
+    <color name="lineVioletBlue">#4947B0</color>
+    <color name="lineLightBlue">#5CAAFF</color>
+    <color name="oceanGreen">#3FC189</color>
+    <color name="redOrange">#FF3B30</color>
+    <color name="carrotOrange">#F1911D</color>
+    <color name="seaShell">#f1f1f1</color>
+
+    <color name="transparent">#00FFFFFF</color>
+    <color name="bluePurple">#801F70ED</color>
+
+    <color name="platinum_30">#4DE1E1E1</color>
+    <color name="eerieBlack_30">#4D191C1F</color>
+    <color name="eerieBlack_20">#33191C1F</color>
+    <color name="background">#dddddd</color>
+
+    <color name="background_white">#B3FFFFFF</color>
+
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

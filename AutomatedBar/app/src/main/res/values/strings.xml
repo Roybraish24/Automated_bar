@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Automated Bar</string>
+    <string-array name="whiskey_drinks">
+        <item>Select Drink: </item>
+        <item>whiskey</item>
+        <item>whiskey cola</item>
+    </string-array>
+
+
+</resources>
