@@ -6,5 +6,10 @@
 
     </style>
 
+    <style name="dropdown_style" >
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 
 </resources>
