@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:theme="@style/Theme.AppCompat.Light.NoActionBar"
     tools:context=".whiskey_drinks_activity">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="350dp">
@@ -18,69 +18,79 @@
             android:layout_height="350dp"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/whiskey" />
+
         <ImageView
             android:id="@+id/imageback"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/arrow_back"
             android:clickable="true"
-            android:onClick="back_to_dashboard"/>
+            android:onClick="back_to_dashboard"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/arrow_white" />
 
     </RelativeLayout>
+
     <Space
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    />
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Select your whiskey drink: "
+        android:layout_marginLeft="25dp"
+        android:textStyle="bold"
+        android:gravity="bottom"
+        android:textSize="20dp"
+        ></TextView>
 
-<!--    <Spinner-->
-<!--        android:id="@+id/spinner"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:background="@color/lightBlueGreyTwo"-->
-<!--        android:entries="@array/whiskey_drinks"-->
-<!--        android:layout_marginTop="10dp"-->
-<!--        android:layout_marginLeft="25dp"-->
-<!--        android:layout_marginRight="25dp"-->
-<!--        android:layout_gravity="center_horizontal"-->
-<!--        style="@style/dropdown_style"-->
-<!--    />-->
+    <!--        android:id="@+id/spinner"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="@color/lightBlueGreyTwo"-->
+    <!--        android:entries="@array/whiskey_drinks"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginLeft="25dp"-->
+    <!--        android:layout_marginRight="25dp"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        style="@style/dropdown_style"-->
+    <!--    />-->
 
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentRight="true"-->
-<!--        android:layout_centerVertical="true"-->
-<!--        android:layout_gravity="center"-->
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_centerVertical="true"-->
+    <!--        android:layout_gravity="center"-->
 
-<!--        android:src="@mipmap/drop" />-->
+    <!--        android:src="@mipmap/drop" />-->
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
         android:layout_weight=".28"
         android:orientation="horizontal">
 
         <Spinner
-                android:id="@+id/spinner"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/spinner_background"
-                android:entries="@array/whiskey_drinks"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:layout_gravity="center_horizontal"
-                style="@style/dropdown_style"
-        />
+            android:id="@+id/spinner"
+            style="@style/dropdown_style"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/spinner_background"
+            android:entries="@array/whiskey_drinks" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_gravity="center"
-            android:layout_marginRight="21dp"
+            android:layout_marginRight="22dp"
             android:src="@mipmap/drop" />
 
     </RelativeLayout>
