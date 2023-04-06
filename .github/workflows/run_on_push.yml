@@ -1,0 +1,8 @@
+name: Run on push
+on: push
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+    - name: Run code locally
+      run: cd / && cd /Users/mohamadharb/Documents/Roy Personal/ && python test_send_message.py
