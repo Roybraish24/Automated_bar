@@ -9,5 +9,5 @@ jobs:
       - name: Run code locally
         run: |
           cd /
-          cd /Users/mohamadharb/Documents/Roy Personal/
+          cd /Users/mohamadharb/Documents/Roy\ Personal/
           python3 test_send_message.py
